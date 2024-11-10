@@ -17,10 +17,10 @@ A mobile app built with Flutter to help people report **lost** and **found** ite
 
 ## Screenshots
 
-<img src="lib/images/screenshots/login_page.png" width="300"/><img src="lib/images/screenshots/register_page.png" width="300"/>
-<img src="lib/images/screenshots/forgot_pw_page.png" width="300"/><img src="lib/images/screenshots/google_sign_in_page.png" width="300"/>
-<img src="lib/images/screenshots/lost_page.png" width="300"/><img src="lib/images/screenshots/found_page.png" width="300"/>
-<img src="lib/images/screenshots/report_lost_page.png" width="300"/><img src="lib/images/screenshots/report_found_page.png" width="300"/>
+<img src="lib/images/screenshots/login_page.png" width="300"/> <img src="lib/images/screenshots/register_page.png" width="300"/>
+<img src="lib/images/screenshots/forgot_pw_page.png" width="300"/> <img src="lib/images/screenshots/google_sign_in_page.png" width="300"/>
+<img src="lib/images/screenshots/lost_page.png" width="300"/> <img src="lib/images/screenshots/found_page.png" width="300"/>
+<img src="lib/images/screenshots/report_lost_page.png" width="300"/> <img src="lib/images/screenshots/report_found_page.png" width="300"/>
 
 
 
