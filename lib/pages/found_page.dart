@@ -250,7 +250,7 @@ void _showCreatePostDialog() {
               child: const Padding(
                 padding: EdgeInsets.symmetric(vertical: 15.0),
                 child: Text("Report Found Item", style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 20,
                   color: Colors.white,
                   ),
                 ),

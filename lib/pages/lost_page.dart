@@ -17,6 +17,7 @@ class LostPage extends StatefulWidget {
 class _LostPageState extends State<LostPage> {
   final TextEditingController _itemController = TextEditingController();
   final TextEditingController _descriptionController = TextEditingController();
+ // final TextEditingController _locationController = TextEditingController();
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final ImagePicker _picker = ImagePicker();
 
@@ -123,12 +124,12 @@ void _showCreatePostDialog() {
               "Report Lost Item",
               style: TextStyle(
                 color: Colors.black, // Black text color
-                fontSize: 24, // Increased font size
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.2,
+                fontSize: 35, // Increased font size
+                //fontWeight: FontWeight.bold,
+                //letterSpacing: 1.,
               ),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 25),
 
             // Item Name Input
             TextField(
@@ -159,6 +160,19 @@ void _showCreatePostDialog() {
             ),
             const SizedBox(height: 16),
 
+            /*TextField(
+              controller: _locationController,
+              decoration: InputDecoration(
+                labelText: "Location",
+                labelStyle: const TextStyle(color: Colors.black),
+                filled: true,
+                fillColor: Colors.grey[200], // Light grey background for input
+                border: const OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(12))),
+              ),
+              style: const TextStyle(fontSize: 16, color: Colors.black),
+              maxLines: 4, // Increased max lines for description
+            ),
+            const SizedBox(height: 16),*/
             // Add Image Button
             ElevatedButton(
               onPressed: _pickImage,
@@ -250,7 +264,7 @@ void _showCreatePostDialog() {
               child: const Padding(
                 padding: EdgeInsets.symmetric(vertical: 15.0),
                 child: Text("Report Lost Item", style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 20,
                   color: Colors.white,
                   ),
                 ),
