@@ -24,16 +24,32 @@ A mobile app built with Flutter to help people report **lost** and **found** ite
 
 
 
-## Installation
+## Installation and Setup
 
-### Prerequisites
+To run the Cafe Z app on your local machine, follow these steps:
 
-1. **Flutter SDK**: Ensure you have Flutter installed. For instructions, check the [Flutter Installation Guide](https://flutter.dev/docs/get-started/install).
-2. **Firebase Project Setup**: Set up a Firebase project with Authentication (Email/Password) and Firestore for data storage.
-3. **ImgBB API Key**: Obtain an API key from [ImgBB](https://imgbb.com/) for image uploads.
+1. Clone the repository:
 
-### Clone the Repository
+   ```bash
+   git clone https://github.com/kweephyo-pmt/lost_found.git
 
-```bash
-git clone https://github.com/your-username/lost-and-found.git
-cd lost-and-found
+2. Navigate to the project directory:
+
+    ```bash
+    cd lost_found
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+
+4. Run the app:
+
+   ```bash
+   flutter run
+
+Feedback and Support
+We hope you enjoy using Lost&Found App! If you have any feedback, or suggestions, or encounter any issues, please feel free to reach out to us. Your feedback helps us improve the app and provide better service to our users.
+
+Contact: phyominthein.icloud@gmail.com
+
