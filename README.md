@@ -26,7 +26,7 @@ A mobile app built with Flutter to help people report **lost** and **found** ite
 
 ## Installation and Setup
 
-To run the Cafe Z app on your local machine, follow these steps:
+To run the Lost&Found app on your local machine, follow these steps:
 
 1. Clone the repository:
 
