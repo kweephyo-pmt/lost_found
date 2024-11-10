@@ -19,11 +19,11 @@ class MyBottomNavBar extends StatelessWidget {
         tabActiveBorder: Border.all(color: Colors.white),
         tabs: const[
         GButton(
-          icon: Icons.home,
+          icon: Icons.not_listed_location,
           text: 'Lost',
         ),
         GButton(
-          icon: Icons.shopping_bag_outlined,
+          icon: Icons.travel_explore_rounded,
           text: 'Found',
         ),
       ],
