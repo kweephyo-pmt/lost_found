@@ -17,8 +17,16 @@ A mobile app built with Flutter to help people report **lost** and **found** ite
 
 ## Screenshots
 
-![Lost Items](assets/screenshots/lost_items.png)
-![Found Items](assets/screenshots/found_items.png)
+![Login Page](assets/screenshots/login_page.png)
+![Register Page](assets/screenshots/register_page.png)
+![Forgot Password](assets/screenshots/forgot_pw_page.png)
+![Google Sign In](assets/screenshots/google_sign_in_page.png)
+![Lost Items](assets/screenshots/lost_page.png)
+![Found Items](assets/screenshots/found_page.png)
+![Report Lost Items](assets/screenshots/report_lost_page.png)
+![Report Found Items](assets/screenshots/report_found_page.png)
+
+
 
 ## Installation
 
