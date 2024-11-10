@@ -51,8 +51,8 @@ class _LoadingScreenState extends State<LoadingScreen> {
             const SizedBox(height: 20),
             Image.asset(
               'lib/images/lost_found.png', // Change to your app icon path
-              width: 100,
-              height: 100,
+              width: 250,
+              height: 250,
             ),
             const SizedBox(height: 20),
             // Define and use the spinkit variable

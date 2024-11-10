@@ -239,7 +239,7 @@ void _showCreatePostDialog() {
       return 'Unknown time'; // Handle null timestamps
     }
     final DateTime dateTime = (timestamp as Timestamp).toDate();
-    return DateFormat('dd/MM/yyyy HH:mm').format(dateTime);
+    return DateFormat('dd/MM/yyyy hh:mm a').format(dateTime);
   }
 
   @override
