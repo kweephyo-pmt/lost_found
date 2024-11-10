@@ -1,16 +1,35 @@
-# lost_found
+# Lost and Found
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-3.24.4-blue.svg)](https://flutter.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore-orange.svg)](https://firebase.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Getting Started
+A mobile app built with Flutter to help people report **lost** and **found** items. It allows users to log in, report items they’ve lost, or found, upload images, and view posts from other users. The app utilizes **Firebase** for authentication and data storage, and **ImgBB** for image hosting.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **User Authentication**: Firebase Auth for login and sign-up.
+- **Lost Item Reporting**: Report lost items with descriptions and images.
+- **Found Item Reporting**: Report found items with descriptions and images.
+- **Real-Time Updates**: Items are stored in Firebase Firestore and updated in real-time.
+- **Image Upload**: Images of lost/found items uploaded to ImgBB and displayed in the app.
+- **Push Notifications** (optional): Real-time notifications for updates on lost/found items.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Lost Items](assets/screenshots/lost_items.png)
+![Found Items](assets/screenshots/found_items.png)
+
+## Installation
+
+### Prerequisites
+
+1. **Flutter SDK**: Ensure you have Flutter installed. For instructions, check the [Flutter Installation Guide](https://flutter.dev/docs/get-started/install).
+2. **Firebase Project Setup**: Set up a Firebase project with Authentication (Email/Password) and Firestore for data storage.
+3. **ImgBB API Key**: Obtain an API key from [ImgBB](https://imgbb.com/) for image uploads.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/lost-and-found.git
+cd lost-and-found
