@@ -17,10 +17,41 @@ A mobile app built with Flutter to help people report **lost** and **found** ite
 
 ## Screenshots
 
-<img src="lib/images/screenshots/login_page.png" width="300"/> <img src="lib/images/screenshots/register_page.png" width="300"/>
-<img src="lib/images/screenshots/forgot_pw_page.png" width="300"/> <img src="lib/images/screenshots/google_sign_in_page.png" width="300"/>
-<img src="lib/images/screenshots/lost_page.png" width="300"/> <img src="lib/images/screenshots/found_page.png" width="300"/>
-<img src="lib/images/screenshots/report_lost_page.png" width="300"/> <img src="lib/images/screenshots/report_found_page.png" width="300"/>
+Loading Screen
+
+<img src="lib/images/screenshots/loading_screen.png" width="300"/> 
+
+Login Page
+
+<img src="lib/images/screenshots/login_page.png" width="300"/> 
+
+Register Page
+
+<img src="lib/images/screenshots/register_page.png" width="300"/>
+
+Forgot Password Page
+
+<img src="lib/images/screenshots/forgot_pw_page.png" width="300"/>
+
+Google Sign In Page
+
+<img src="lib/images/screenshots/google_sign_in_page.png" width="300"/>
+
+Lost Items Page
+
+<img src="lib/images/screenshots/lost_page.png" width="300"/>
+
+Found Items Page
+
+<img src="lib/images/screenshots/found_page.png" width="300"/>
+
+Report Lost Items Page
+
+<img src="lib/images/screenshots/report_lost_page.png" width="300"/> 
+
+Report Found Items Page
+
+<img src="lib/images/screenshots/report_found_page.png" width="300"/>
 
 
 
