@@ -178,7 +178,7 @@ void _showCreatePostDialog() {
               onPressed: _pickImage,
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(vertical: 12,horizontal: 20), 
-                backgroundColor: Colors.green, // Black button
+                backgroundColor: Colors.black, // Black button
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -210,13 +210,13 @@ void _showCreatePostDialog() {
                 // Cancel Button
                 TextButton(
                   onPressed: () => Navigator.pop(context),
-                  child: const Text("Cancel", style: TextStyle(color: Colors.red, fontSize: 16)),
+                  child: const Text("Cancel", style: TextStyle(color: Colors.black, fontSize: 16)),
                 ),
                 // Report Button
                 ElevatedButton(
                   onPressed: _createFoundPost,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.green,
+                    backgroundColor: Colors.black,
                     padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
