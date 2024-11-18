@@ -13,7 +13,6 @@ A mobile app built with Flutter to help people report **lost** and **found** ite
 - **Found Item Reporting**: Report found items with descriptions and images.
 - **Real-Time Updates**: Items are stored in Firebase Firestore and updated in real-time.
 - **Image Upload**: Images of lost/found items uploaded to ImgBB and displayed in the app.
-- **Push Notifications** (optional): Real-time notifications for updates on lost/found items.
 
 ## Screenshots
 
