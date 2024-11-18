@@ -25,7 +25,7 @@ class HelpAndSupportPage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Email: supportt@lost&found.com',
+              'Email: support@lost&found.com',
               style: TextStyle(fontSize: 16),
             ),
             const Text(

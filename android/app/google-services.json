@@ -12,7 +12,20 @@
           "package_name": "com.lostfound.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "811237248062-t0d3njuuebnj67njc3685d9jqcss1mjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lostfound.app",
+            "certificate_hash": "e12623d55f70e3e2546f20b87d41d1eb8dd2fe26"
+          }
+        },
+        {
+          "client_id": "811237248062-1fr416rkbppkajugo1ubk3ects14g3pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyD6HOK_iD6BoP92FRLGQWXb6uD8BjJQdrs"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811237248062-1fr416rkbppkajugo1ubk3ects14g3pq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "811237248062-793212rufbq89ok5s1c3f4m8tg86sc02.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lostFound"
+              }
+            }
+          ]
         }
       }
     }
